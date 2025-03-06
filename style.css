@@ -18,6 +18,9 @@
     display: flex;
     justify-content: space-between;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
    
 }
 
@@ -96,7 +99,7 @@ border-radius: 10px;
 
 
 .main{
-    height: 500px;
+    height: 600px;
     width: 100%;    
     display: flex;
  
@@ -156,11 +159,63 @@ border-radius: 10px;
     border-radius: 10px;
     background-color: blueviolet;
     
+
+
 }
+
+.main .leftmain .mainbtn .cv{
+    background-color: #FFF;
+    color: blueviolet;
+}
+
+.main .leftmain .mainbtn .cv:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
 
 .main .rightmain{
     height: 100%;
     width: 50%;
-    background-color: yellow;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
+.main .rightmain img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* main content end */
+
+
+/* aboutme start */
+
+.aboutme{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.aboutme .leftaboutme{
+    width: 50%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme .leftaboutme img{
+    border-radius: 50%;
+}
+
+.aboutme .rightaboutme{
+    height: 100%;
+    width: 50%;
+    background-color: chartreuse;
+}
