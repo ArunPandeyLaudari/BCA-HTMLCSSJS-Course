@@ -1,14 +1,14 @@
-*{
+* {
     font-family: "Roboto", sans-serif;
- 
+
     box-sizing: border-box;
 }
 
 /* header css start */
 
 
-.topheader{
- 
+.topheader {
+
     height: 100px;
     width: 100%;
     backdrop-filter: blur(10px);
@@ -21,52 +21,52 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-   
+
 }
 
-.topheader .logo{
+.topheader .logo {
     height: 100%;
     width: 5%;
     border-radius: 50%;
-   
+
 }
 
-.topheader .logo img{
+.topheader .logo img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
 
-.topheader .navbar{
+.topheader .navbar {
     height: 100%;
     width: 70%;
-  
+
     display: flex;
-    
+
 }
 
-.topheader .navbar ul{
-    
+.topheader .navbar ul {
+
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.topheader .navbar ul li{
+.topheader .navbar ul li {
     list-style: none;
- 
+
 }
 
-.topheader .navbar ul li a{
+.topheader .navbar ul li a {
     text-decoration: none;
     color: blueviolet;
     font-size: 20px;
     font-weight: 500;
-   
+
 }
 
-.topheader .navbar ul li a:hover{
+.topheader .navbar ul li a:hover {
     color: rgb(254, 72, 0);
     transition: color 0.3s ease;
     transform: scale(1.1);
@@ -75,22 +75,22 @@
 
 
 
-.topheader .login{
-height: 100%;
-width: 10%;
-display: flex;
-justify-content: center;
-align-items: center;
+.topheader .login {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-border-radius: 10px;
+    border-radius: 10px;
 }
 
-.topheader .login a{
+.topheader .login a {
     text-decoration: none;
     color: blueviolet;
     font-size: 20px;
     font-weight: 500;
-    
+
 }
 
 /* header css end */
@@ -98,15 +98,15 @@ border-radius: 10px;
 /* main css start */
 
 
-.main{
+.main {
     height: 600px;
-    width: 100%;    
+    width: 100%;
     display: flex;
- 
-   
+
+
 }
 
-.main .leftmain{
+.main .leftmain {
     height: 100%;
     width: 50%;
     display: flex;
@@ -116,41 +116,41 @@ border-radius: 10px;
     padding: 50px;
 }
 
-.main .leftmain h1{
+.main .leftmain h1 {
     font-size: 50px;
     font-weight: 700;
     color: blueviolet;
-    margin-bottom:-8px ;
+    margin-bottom: -8px;
 }
 
-.main .leftmain h2{
+.main .leftmain h2 {
     font-size: 30px;
     font-weight: 500;
     color: #534e4e;
-    margin-bottom:-6px ;
+    margin-bottom: -6px;
 }
 
-.main .leftmain h3{
+.main .leftmain h3 {
     font-size: 25px;
     font-weight: 500;
     color: blueviolet;
-    margin-bottom:-10px ;
+    margin-bottom: -10px;
 }
 
-.main .leftmain p{
+.main .leftmain p {
     font-size: 20px;
     font-weight: 500;
     color: #534e4e;
     text-align: justify;
 }
 
-.main .leftmain .mainbtn{
+.main .leftmain .mainbtn {
     height: 300px;
     width: 300px;
-   
+
 }
 
-.main .leftmain .mainbtn a{
+.main .leftmain .mainbtn a {
     text-decoration: none;
     color: #FFF;
     font-size: 20px;
@@ -158,33 +158,33 @@ border-radius: 10px;
     padding: 10px;
     border-radius: 10px;
     background-color: blueviolet;
-    
+
 
 
 }
 
-.main .leftmain .mainbtn .cv{
+.main .leftmain .mainbtn .cv {
     background-color: #FFF;
     color: blueviolet;
 }
 
-.main .leftmain .mainbtn .cv:hover{
+.main .leftmain .mainbtn .cv:hover {
     background-color: blueviolet;
     color: white;
 }
 
 
-.main .rightmain{
+.main .rightmain {
     height: 100%;
     width: 50%;
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.main .rightmain img{
+.main .rightmain img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -195,27 +195,132 @@ border-radius: 10px;
 
 /* aboutme start */
 
-.aboutme{
+.aboutme {
     height: 500px;
     width: 100%;
     display: flex;
 }
 
-.aboutme .leftaboutme{
+.aboutme .leftaboutme {
     width: 50%;
     height: 100%;
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutme .leftaboutme img{
+.aboutme .leftaboutme img {
     border-radius: 50%;
 }
 
-.aboutme .rightaboutme{
+.aboutme .rightaboutme {
     height: 100%;
     width: 50%;
-    background-color: chartreuse;
+
+    padding: 20px;
+}
+
+
+.aboutme .rightaboutme .aboutmeheading {
+    border-bottom: 2px solid violet;
+    font-size: 40px;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+
+.aboutme .rightaboutme h3 {
+    margin-top: -2px;
+    font-size: x-large;
+    color: blueviolet;
+}
+
+.aboutme .rightaboutme p {
+    text-align: justify;
+    color: #3f3d3d;
+
+}
+
+.aboutme .rightaboutme .social {
+    display: flex;
+    font-size: 30px;
+    height: 30px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.aboutme .rightaboutme .social a {
+
+    font-size: 30px;
+
+    background-color: blueviolet;
+    border-radius: 50%;
+
+}
+
+.aboutme .rightaboutme .social a .bx {
+    color: white;
+    padding: 8px 9px;
+}
+
+
+/* aboutme end */
+
+/* skills start */
+
+.skills {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+.skills .skillheading {
+
+    color: blueviolet;
+    font-weight: 600;
+    font-size: xx-large;
+    border-bottom: 2px solid blueviolet;
+   
+   
+
+}
+
+.skills .skillcontainer{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+}
+
+.skillcontainer .skillbox{
+    height: 100px;
+    width: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.skillcontainer .skillbox .bx{
+    color: blueviolet;
+    font-size: 100px;
+    
+}
+
+.skillbox span{
+    color: #3f3d3d;
+    font-size: 30px;
 }
