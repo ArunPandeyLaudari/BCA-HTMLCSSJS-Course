@@ -295,12 +295,14 @@
 }
 
 .skills .skillcontainer{
+    margin-top: 20px;
     height: 80%;
+    
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: aqua;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  
+   
 }
 
 .skillcontainer .skillbox{
