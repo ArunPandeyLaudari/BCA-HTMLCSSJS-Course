@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function simple() {
+
+            if (arguments.length < 3) {
+                console.log("You need to pass 3 arguments");
+            }
+            else {
+                let p = arguments[0]
+                let r = arguments[1]
+                let t = arguments[2]
+                let si = (p * r * t) / 100
+                console.log("Simple Interest is: ", si)
+            }
+
+
+        }
+
+
+        simple(1000, 2, 6)
+
+    </script>
+</body>
+
+</html>
