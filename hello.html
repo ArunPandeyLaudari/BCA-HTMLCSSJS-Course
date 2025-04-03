@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 py-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center px-6">
+      <h1 class="text-2xl font-bold">My Portfolio</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-teal-400">About</a></li>
+          <li><a href="#projects" class="hover:text-teal-400">Projects</a></li>
+          <li><a href="#contact" class="hover:text-teal-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-teal-500 to-blue-500">
+    <h2 class="text-4xl font-bold mb-4 animate-fade-in">Welcome to My Portfolio</h2>
+    <p class="text-lg mb-6">I am a passionate developer creating beautiful and functional websites.</p>
+    <a href="#projects" class="bg-white text-gray-900 px-6 py-3 rounded-full shadow-lg hover:bg-gray-200 transition">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+      <p class="text-lg text-center max-w-3xl mx-auto">I am a web developer with a passion for creating stunning and user-friendly websites. I specialize in front-end development and love working with modern tools like Tailwind CSS and JavaScript frameworks.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:scale-105 transform transition">
+          <h3 class="text-xl font-bold mb-2">Project 1</h3>
+          <p>A brief description of the project goes here.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:scale-105 transform transition">
+          <h3 class="text-xl font-bold mb-2">Project 2</h3>
+          <p>A brief description of the project goes here.</p>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg hover:scale-105 transform transition">
+          <h3 class="text-xl font-bold mb-2">Project 3</h3>
+          <p>A brief description of the project goes here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-sm font-medium mb-2">Name</label>
+          <input type="text" id="name" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium mb-2">Email</label>
+          <input type="email" id="email" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-sm font-medium mb-2">Message</label>
+          <textarea id="message" rows="4" class="w-full px-4 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"></textarea>
+        </div>
+        <button type="submit" class="bg-teal-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-teal-600 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script>
+
+// Initialize ScrollReveal
+ScrollReveal().reveal('.animate-fade-in', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '50px',
+  easing: 'ease-in-out',
+});
+  </script>
+</body>
+</html></div>
